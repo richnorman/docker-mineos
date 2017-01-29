@@ -1,5 +1,5 @@
-FROM ubuntu:trusty
-MAINTAINER Yuji ODA
+FROM ubuntu:xenial
+MAINTAINER rnorman
 
 # Installing Dependencies
 RUN apt-get update; \
