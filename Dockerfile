@@ -3,8 +3,8 @@ MAINTAINER rnorman
 
 # Installing Dependencies
 RUN apt-get update; \
-    apt-get -y install supervisor screen python-cherrypy3 rdiff-backup git openjdk-7-jre-headless; \
-    apt-get -y install openssh-server uuid pwgen
+    apt-get -y install supervisor screen python-cherrypy3 rdiff-backup git openjdk-8-jre-headless; \
+    apt-get -y install openssh-server uuid pwgen sudo
 
 # Installing MineOS scripts
 RUN mkdir -p /usr/games /var/games/minecraft; \
